@@ -21,6 +21,14 @@ public class Cat {
     }
 
     /**
+     * 跑动的重载防范
+     * @param name 猫的名字
+     */
+    public void run(String name){
+        System.out.println(name+"快跑！");
+    }
+
+    /**
      * 吃东西的方法
      */
     public void eat() {
