@@ -18,6 +18,7 @@ public class Cat1 {
     }
 
     public Cat1(String name) {
+        this();//只能放在第一行
         System.out.println("我是带参构造方法");
     }
 
