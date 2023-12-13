@@ -15,21 +15,22 @@ public class SchoolTest {
         System.out.println(student1.introduction());
         System.out.println("====================================");
 
-
-
-        Student student2 = new Student("S002", "李四", "男", 20,subject);
+        Student student2 = new Student("S002", "李四", "男", 20, subject);
         System.out.println(student2.introduction("计算机科学与技术", "J0001", 4));
         System.out.println("====================================");
-
 
         Student student3 = new Student("S003", "王五", "男", 20, subject);
         System.out.println(student3.introduction(subject));
         System.out.println("====================================");
 
-
         Student student4 = new Student("S004", "赵六", "男", 20, subject);
         System.out.println(student4.introduction());
 
+        // 测试指定专业中到底有多少学生
+        subject.addStudent(student1);
+        subject.addStudent(student2);
+        subject.addStudent(student3);
+        System.out.println(subject.getSubjectName() + "的专业中已有" + subject.getStudentNum() + "名学生");
 
 
     }
