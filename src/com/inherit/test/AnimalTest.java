@@ -23,6 +23,8 @@ public class AnimalTest {
         dog.eat();
         dog.sleep();
 
+        System.out.println("++++++++++++++++++++++++++");
+        dog.eat("大黄");
     }
 
 }
