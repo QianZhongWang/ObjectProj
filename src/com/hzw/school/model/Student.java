@@ -1,4 +1,4 @@
-package coom.hzw.school.model;
+package com.hzw.school.model;
 
 public class Student {
     // 成员属性 学号，姓名、性别、年龄

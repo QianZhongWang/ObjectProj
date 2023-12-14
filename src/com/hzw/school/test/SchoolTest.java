@@ -1,7 +1,7 @@
-package coom.hzw.school.test;
+package com.hzw.school.test;
 
-import coom.hzw.school.model.Subject;
-import coom.hzw.school.model.Student;
+import com.hzw.school.model.Subject;
+import com.hzw.school.model.Student;
 
 public class SchoolTest {
     public static void main(String[] args) {

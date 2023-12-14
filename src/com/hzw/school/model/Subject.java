@@ -1,4 +1,4 @@
-package coom.hzw.school.model;
+package com.hzw.school.model;
 
 public class Subject {
     // 成员属性 学科名称、学科编号、学制年限 报名选修的学生信息
