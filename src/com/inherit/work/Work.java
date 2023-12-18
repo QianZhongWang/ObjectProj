@@ -1,6 +1,10 @@
 package com.inherit.work;
-
 public class Work {
+    // private : 私有的，只能在本类中访问
+    // default : 默认的，只能在本类和同包中访问
+    // protected : 受保护的，只能在本类和子类中访问
+    // public : 公共的，任何地方都可以访问
+
     private String workName;
 
     public Work() {
