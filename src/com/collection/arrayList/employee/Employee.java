@@ -1,4 +1,4 @@
-package com.collection.employee;
+package com.collection.arrayList.employee;
 
 public class Employee {
     private int id;

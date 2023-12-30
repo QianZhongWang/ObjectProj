@@ -1,4 +1,4 @@
-package com.collection.notice;
+package com.collection.arrayList.notice;
 
 import java.util.ArrayList;
 import java.util.Date;
