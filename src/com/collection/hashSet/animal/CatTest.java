@@ -60,5 +60,33 @@ public class CatTest {
             System.out.println("花花没找到");
         }
 
+
+        System.out.println("===================================");
+        System.out.println(set);
+        // 删除花花二代
+        for (Cat cat : set) {
+            if (cat.getName().equals("花花二代")) {
+                set.remove(cat);
+                break;
+            }
+        }
+        System.out.println(set);
+
+        //
+        System.out.println("===================================");
+        set.add(cat4);
+        System.out.println(set);
+        set.removeIf(next -> next.getName().equals("花花二代"));
+        System.out.println(set);
+
+        set.removeAll(set);
+        System.out.println(set);
+        System.out.println(set.isEmpty());
+        set.add(cat1);
+        set.add(cat2);
+        set.clear();
+        System.out.println(set);
+        System.out.println(set.isEmpty());
+
     }
 }
