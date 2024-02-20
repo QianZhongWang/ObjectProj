@@ -30,5 +30,21 @@ public class DictionaryDemo {
             System.out.println(entry.getKey() + "--->" + entry.getValue());
         }
 
+        // 通过单词找到注释并输出
+        // 使用keySet方法
+        String strSearch = sc.next();
+
+        // 1.取得keySet
+        Set<String> keySet = animal.keySet();
+        // 2.遍历keySet
+        for (String key : keySet) {
+            if (strSearch.equals(key)) {
+                System.out.println("找到了" + key + "对应的value值为" + animal.get(key));
+                break;
+            }
+        }
+
+
+
     }
 }
