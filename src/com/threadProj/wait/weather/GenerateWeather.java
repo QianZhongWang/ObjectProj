@@ -9,14 +9,17 @@ public class GenerateWeather implements Runnable {
 
     @Override
     public void run() {
+        for (int i = 0; i < 100; i++){
+            weather.generate();
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
-        weather.generate();
+
+
 
     }
 }

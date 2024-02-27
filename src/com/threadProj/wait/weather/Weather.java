@@ -21,41 +21,32 @@ public class Weather {
         this.humidity = humidity;
     }
 
-    public boolean isFlag() {
-        return flag;
-    }
-
-    public void setFlag(boolean flag) {
-        this.flag = flag;
-    }
 
     public synchronized void generate() {
-        this.setTemperature((int) (Math.random() * 40));
-        this.setHumidity((int) (Math.random() * 100));
-        if (!this.flag) {
-            System.out.println("生成天气数据：" + this.toString());
+        if (this.flag) { // 当有数据时，等待
             try {
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-
-        this.setFlag(true);
+        this.setTemperature((int) (Math.random() * 40));
+        this.setHumidity((int) (Math.random() * 100));
+        System.out.println("生成天气数据：" + this.toString());
+        this.flag = true;
         notifyAll();
     }
 
     public synchronized void read() {
-        if (this.flag) {
-            System.out.println("读取天气数据：" + this.toString());
+        if (!this.flag) { // 当没有数据时，等待
             try {
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-
-        this.setFlag(false);
+        System.out.println("读取天气数据：" + this.toString());
+        this.flag = false;
         notifyAll();
     }
 

@@ -9,13 +9,16 @@ public class ReadWeather implements Runnable {
 
     @Override
     public void run() {
+        for (int i = 0; i < 100; i++) {
+            weather.read();
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
         }
-        weather.read();
+
 
     }
 }
