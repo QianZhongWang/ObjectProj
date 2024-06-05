@@ -14,6 +14,7 @@ public class FileOutputDemo1 {
             int n = 0;
             byte[] b = new byte[1024];
             while ((n = fis.read(b)) != -1) {
+                System.out.println(n);
                 fos.write(b, 0, n);
             }
             fis.close();
