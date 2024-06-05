@@ -6,7 +6,6 @@ import java.io.IOException;
 
 public class FileInputTest {
     public static void main(String[] args) {
-
         try {
             FileInputStream fis = new FileInputStream("speech.txt");
             int n = 0, count = 0;
