@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE teaching-plan SYSTEM "plan.dtd">
-<teaching-plan>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teaching-plan SYSTEM "plan.dtd"><teaching-plan>
     <course>
         <course-name>大学英语</course-name>
         <class-hour>36</class-hour>
@@ -16,4 +15,4 @@
         <class-hour>108</class-hour>
         <exam-form>上机考试</exam-form>
     </course>
-</teaching-plan>
+<course no="1001"><course-name>计算机网络</course-name><course-hour>48</course-hour><exam-form>考试</exam-form></course><course no="1001"><course-name>计算机网络</course-name><class-hour>48</class-hour><exam-form>考试</exam-form></course></teaching-plan>
