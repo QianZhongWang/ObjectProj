@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE hr SYSTEM "hr.dtd">
 <hr>
     <employee no="1">
@@ -17,6 +17,15 @@
         <department>
             <dname>研发部</dname>
             <address>北京***大厦B103</address>
+        </department>
+    </employee>
+    <employee no="1001">
+        <name>Tom</name>
+        <age>30</age>
+        <salary>3000</salary>
+        <department>
+            <dname>研发部</dname>
+            <address>北京</address>
         </department>
     </employee>
 </hr>
