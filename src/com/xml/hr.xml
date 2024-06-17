@@ -1,31 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE hr SYSTEM "hr.dtd">
 <hr>
-    <employee no="1">
-        <name>John Doe</name>
-        <age>12</age>
-        <salary>1000</salary>
+    <employee no="3301">
+        <name>李铁柱</name>
+        <age>37</age>
+        <salary>3600</salary>
         <department>
-            <dname>研发部</dname>
+            <dname>人事部</dname>
             <address>北京***大厦B103</address>
         </department>
     </employee>
-    <employee no="1">
-        <name>John Doe</name>
-        <age>12</age>
-        <salary>1000</salary>
+    <employee no="3302">
+        <name>张三</name>
+        <age>39</age>
+        <salary>4500</salary>
         <department>
-            <dname>研发部</dname>
-            <address>北京***大厦B103</address>
+            <dname>人事部</dname>
+            <address>北京**大厦B103</address>
         </department>
     </employee>
-    <employee no="1001">
-        <name>Tom</name>
-        <age>30</age>
-        <salary>3000</salary>
+    <employee no="3303">
+        <name>李四</name>
+        <age>35</age>
+        <salary>3800</salary>
         <department>
-            <dname>研发部</dname>
-            <address>北京</address>
+            <dname>财务部</dname>
+            <address>北京**大厦B104</address>
+        </department>
+    </employee>
+    <employee no="3304">
+        <name>王五</name>
+        <age>40</age>
+        <salary>5000</salary>
+        <department>
+            <dname>财务部</dname>
+            <address>北京**大厦B104</address>
+        </department>
+    </employee>
+    <employee no="3305">
+        <name>赵六</name>
+        <age>33</age>
+        <salary>3200</salary>
+        <department>
+            <dname>市场部</dname>
+            <address>北京**大厦B105</address>
+        </department>
+    </employee>
+    <employee no="3306">
+        <name>孙七</name>
+        <age>34</age>
+        <salary>3300</salary>
+        <department>
+            <dname>市场部</dname>
+            <address>北京**大厦B105</address>
+        </department>
+    </employee>
+    <employee no="3307">
+        <name>周八</name>
+        <age>36</age>
+        <salary>3400</salary>
+        <department>
+            <dname>市场部</dname>
+            <address>北京**大厦B105</address>
+        </department>
+    </employee>
+    <employee no="3308">
+        <name>吴九</name>
+        <age>38</age>
+        <salary>3500</salary>
+        <department>
+            <dname>市场部</dname>
+            <address>北京**大厦B105</address>
+        </department>
+    </employee>
+    <employee no="3309">
+        <name>郑十</name>
+        <age>41</age>
+        <salary>5100</salary>
+        <department>
+            <dname>市场部</dname>
+            <address>北京**大厦B105</address>
+        </department>
+    </employee>
+    <employee no="3310">
+        <name>钱十一</name>
+        <age>42</age>
+        <salary>5200</salary>
+        <department>
+            <dname>市场部</dname>
+            <address>北京**大厦B105</address>
         </department>
     </employee>
 </hr>

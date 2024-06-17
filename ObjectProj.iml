@@ -17,5 +17,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="dom4j-2.1.4" level="project" />
+    <orderEntry type="library" name="jaxen-1.2.0.2-jre16" level="project" />
   </component>
 </module>
