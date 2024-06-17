@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<teaching-plan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="plan.xsd">
+    <course>
+        <course-name>Java</course-name>
+        <class-hour>28</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Database</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Oral</exam-form>
+    </course>
+    <course>
+        <course-name>Operating System</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Network</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Software Engineering</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Graphics</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Architecture</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Security</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Artificial Intelligence</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Algebra</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Vision</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+    <course>
+        <course-name>Computer Simulation</course-name>
+        <class-hour>32</class-hour>
+        <exam-form>Written</exam-form>
+    </course>
+</teaching-plan>

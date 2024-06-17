@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hr xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hr.xsd">
+    <employee no="1">
+        <name>John Doe</name>
+        <age>18</age>
+        <salary>1000</salary>
+        <department>
+            <dname>研发部</dname>
+            <address>北京***大厦B103</address>
+        </department>
+    </employee>
+    <employee no="1">
+        <name>John Doe</name>
+        <age>65</age>
+        <salary>1000</salary>
+        <department>
+            <dname>研发部</dname>
+            <address>北京***大厦B103</address>
+        </department>
+    </employee>
+</hr>
